@@ -24,8 +24,8 @@ export const WeatherApp = () => {
     const [wicon, setWicon] = useState(few_clouds);
     var error_bar = document.getElementsByClassName("error-bar");
 
-    let api_key_openweather = "29ac581cf0bb591731acb946ad67bcaa";
-    let api_key_geolocalization = "5d0b917f26ff4dcc9d5ccac0705b94fa";
+    let api_key_openweather = process.env.REACT_APP_OPENWEATHER_API_KEY;
+    let api_key_geolocalization = process.env.REACT_APP_GEOLOCALIZATION_API_KEY;
 
     const getLocation = async () => {
         let url_geolocalization = `https://api.geoapify.com/v1/ipinfo?&apiKey=${api_key_geolocalization}`;
