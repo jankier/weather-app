@@ -4,4 +4,5 @@ App obtains current location of a user with use of a Geoapify api and displays t
 App allows user to input city of choice and returns current weather in that location.
 
 Snippet of the app:
-![2023-11-04-18-20-46](https://github.com/jankier/weather-app/assets/137533379/594d5e53-2725-47a9-a14b-ff60afd51431)
+![0ad305dc-267f-42a7-8e98-73e2957859b7](https://github.com/jankier/weather-app/assets/137533379/f43dd027-2e58-46bb-85e7-6e0d0a9688f0)
+
